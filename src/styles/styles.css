@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+}
+
+.fila, .encabezado {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 1rem;
+    text-align: start;
+    align-items: center;
+}
+
+.fila {
+    background-color: white;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+}
+
+.encabezado {
+    background-color: darkseagreen;
+    font-weight: bold;
+}
+
+.columnaPedido {
+    flex: 5;
+}
+
+.columnaPago {
+    flex: 1;
+    text-align: center;
+}
+
+.pino {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.capsulita {
+    border-radius: 0.5rem;
+    padding: 0.1rem 0.5rem;
+    width: fit-content;
+    margin: 0.2rem;
+}
+
+.color0 {
+    background-color: darkcyan;
+    color: white;
+}
+
+.color1 {
+    background-color: orange;
+}
+
+.color2 {
+    background-color: darkviolet;
+    color: white;
+}
+
+.color3 {
+    background-color: tan;
+}
+
+.gustos {
+    display: flex;
+    flex-direction: row;
+    justify-content: initial;
+}
