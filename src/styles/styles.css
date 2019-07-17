@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
-body {
-    font-family: 'Open Sans', sans-serif;
+body, input, button {
+    font-family: 'Open Sans', sans-serif !important;
 }
 
 .main {
@@ -81,4 +81,33 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: initial;
+}
+
+.nuevoPedido {
+    padding: 1rem;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.inputDefault {
+    height: 1.4rem;
+    width: 25%;
+    border-radius: 0.3rem;
+    margin-right: 1rem;
+    padding: 0.2rem;
+}
+
+.botonPrimario {
+    background-color: gainsboro;
+    border-radius: 0.3rem;
+    font-weight: bold;
+    padding: 0 2rem;
+}
+
+.filtro {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
 }
